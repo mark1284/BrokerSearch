@@ -38,21 +38,21 @@
 		3BAD17B2156CF99200977973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BAD17B4156CF99200977973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BAD17B6156CF99200977973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3BAD17BA156CF99200977973 /* BrokerSearch-Info.plist */ = {isa = PBXFileReference; path = "BrokerSearch-Info.plist"; sourceTree = "<group>"; };
+		3BAD17BA156CF99200977973 /* BrokerSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrokerSearch-Info.plist"; sourceTree = "<group>"; };
 		3BAD17BC156CF99200977973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BAD17BE156CF99200977973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3BAD17C0156CF99200977973 /* BrokerSearch-Prefix.pch */ = {isa = PBXFileReference; path = "BrokerSearch-Prefix.pch"; sourceTree = "<group>"; };
-		3BAD17C1156CF99200977973 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BAD17C0156CF99200977973 /* BrokerSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrokerSearch-Prefix.pch"; sourceTree = "<group>"; };
+		3BAD17C1156CF99200977973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BAD17C2156CF99200977973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BAD17C5156CF99200977973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3BAD17C8156CF99200977973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3BAD17CA156CF99200977973 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3BAD17CA156CF99200977973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3BAD17CB156CF99200977973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3BAD17D2156CF99200977973 /* BrokerSearchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokerSearchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD17D3156CF99200977973 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3BAD17DB156CF99200977973 /* BrokerSearchTests-Info.plist */ = {isa = PBXFileReference; path = "BrokerSearchTests-Info.plist"; sourceTree = "<group>"; };
+		3BAD17DB156CF99200977973 /* BrokerSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrokerSearchTests-Info.plist"; sourceTree = "<group>"; };
 		3BAD17DD156CF99200977973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3BAD17DF156CF99200977973 /* BrokerSearchTests.h */ = {isa = PBXFileReference; path = BrokerSearchTests.h; sourceTree = "<group>"; };
+		3BAD17DF156CF99200977973 /* BrokerSearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokerSearchTests.h; sourceTree = "<group>"; };
 		3BAD17E0156CF99200977973 /* BrokerSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokerSearchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
