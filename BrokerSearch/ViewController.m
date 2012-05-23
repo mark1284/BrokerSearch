@@ -237,7 +237,9 @@
     // append the query string to the url
     NSMutableString* url = @"http://appd041a:8080/OppTracker/brokerMain/searchBrokerAsJSON?query=";
     
-   NSData* data = [NSData dataWithContentsOfURL:kLatestKivaLoansURL];
+    [url appendString:searchText];
+    
+    NSData* data = [NSData dataWithContentsOfURL: [NSURL URLWithString: url]];
     
     [self fetchedData:data]; // this could be async
 
