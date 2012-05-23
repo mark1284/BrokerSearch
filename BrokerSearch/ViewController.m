@@ -235,9 +235,9 @@
 {
  
     // append the query string to the url
-    NSMutableString* url = @"http://appd041a:8080/OppTracker/brokerMain/searchBrokerAsJSON?query=";
-    
-    [url appendString:searchText];
+    NSMutableString* url =[NSMutableString stringWithCapacity: 1000];
+                           
+    [url appendString: @"http://appd041a:8080/OppTracker/brokerMain/searchBrokerAsJSON?query="] ;
     
     NSData* data = [NSData dataWithContentsOfURL: [NSURL URLWithString: url]];
     
