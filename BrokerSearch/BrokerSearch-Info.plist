@@ -45,5 +45,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>OppTrackerUrl</key>
+	<string>http://lt020671:8080/OppTracker/brokerMain/searchBrokerAsJSON?includeAquila=true&amp;query=</string>
 </dict>
 </plist>
