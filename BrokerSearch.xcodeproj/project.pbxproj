@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA9122D1573785D009A288B /* aviva-logo0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912121573785D009A288B /* aviva-logo0001.png */; };
+		3BA9122E1573785D009A288B /* aviva-logo0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912131573785D009A288B /* aviva-logo0013.png */; };
+		3BA9122F1573785D009A288B /* aviva-logo0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912141573785D009A288B /* aviva-logo0025.png */; };
+		3BA912301573785D009A288B /* aviva-logo0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912151573785D009A288B /* aviva-logo0037.png */; };
+		3BA912311573785D009A288B /* aviva-logo0049.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912161573785D009A288B /* aviva-logo0049.png */; };
+		3BA912321573785D009A288B /* aviva-logo0061.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912171573785D009A288B /* aviva-logo0061.png */; };
+		3BA912331573785D009A288B /* aviva-logo0073.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912181573785D009A288B /* aviva-logo0073.png */; };
+		3BA912341573785D009A288B /* aviva-logo0085.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912191573785D009A288B /* aviva-logo0085.png */; };
+		3BA912351573785D009A288B /* aviva-logo0097.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121A1573785D009A288B /* aviva-logo0097.png */; };
+		3BA912361573785D009A288B /* aviva-logo0109.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121B1573785D009A288B /* aviva-logo0109.png */; };
+		3BA912371573785D009A288B /* aviva-logo0121.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121C1573785D009A288B /* aviva-logo0121.png */; };
+		3BA912381573785D009A288B /* aviva-logo0133.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121D1573785D009A288B /* aviva-logo0133.png */; };
+		3BA912391573785D009A288B /* aviva-logo0145.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121E1573785D009A288B /* aviva-logo0145.png */; };
+		3BA9123A1573785D009A288B /* aviva-logo0157.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9121F1573785D009A288B /* aviva-logo0157.png */; };
+		3BA9123B1573785D009A288B /* aviva-logo0169.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912201573785D009A288B /* aviva-logo0169.png */; };
+		3BA9123C1573785D009A288B /* aviva-logo0181.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912211573785D009A288B /* aviva-logo0181.png */; };
+		3BA9123D1573785D009A288B /* aviva-logo0187.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912221573785D009A288B /* aviva-logo0187.png */; };
+		3BA9123E1573785D009A288B /* aviva-logo0193.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912231573785D009A288B /* aviva-logo0193.png */; };
+		3BA9123F1573785D009A288B /* aviva-logo0199.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912241573785D009A288B /* aviva-logo0199.png */; };
+		3BA912401573785D009A288B /* aviva-logo0205.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912251573785D009A288B /* aviva-logo0205.png */; };
+		3BA912411573785D009A288B /* aviva-logo0211.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912261573785D009A288B /* aviva-logo0211.png */; };
+		3BA912421573785D009A288B /* aviva-logo0217.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912271573785D009A288B /* aviva-logo0217.png */; };
+		3BA912431573785D009A288B /* aviva-logo0223.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912281573785D009A288B /* aviva-logo0223.png */; };
+		3BA912441573785D009A288B /* aviva-logo0229.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA912291573785D009A288B /* aviva-logo0229.png */; };
+		3BA912451573785D009A288B /* aviva-logo0235.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122A1573785D009A288B /* aviva-logo0235.png */; };
+		3BA912461573785D009A288B /* aviva-logo0241.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122B1573785D009A288B /* aviva-logo0241.png */; };
+		3BA912471573785D009A288B /* aviva-logo0247.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122C1573785D009A288B /* aviva-logo0247.png */; };
 		3BAD17B3156CF99200977973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B2156CF99200977973 /* UIKit.framework */; };
 		3BAD17B5156CF99200977973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B4156CF99200977973 /* Foundation.framework */; };
 		3BAD17B7156CF99200977973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B6156CF99200977973 /* CoreGraphics.framework */; };
@@ -34,6 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BA912121573785D009A288B /* aviva-logo0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0001.png"; sourceTree = "<group>"; };
+		3BA912131573785D009A288B /* aviva-logo0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0013.png"; sourceTree = "<group>"; };
+		3BA912141573785D009A288B /* aviva-logo0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0025.png"; sourceTree = "<group>"; };
+		3BA912151573785D009A288B /* aviva-logo0037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0037.png"; sourceTree = "<group>"; };
+		3BA912161573785D009A288B /* aviva-logo0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0049.png"; sourceTree = "<group>"; };
+		3BA912171573785D009A288B /* aviva-logo0061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0061.png"; sourceTree = "<group>"; };
+		3BA912181573785D009A288B /* aviva-logo0073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0073.png"; sourceTree = "<group>"; };
+		3BA912191573785D009A288B /* aviva-logo0085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0085.png"; sourceTree = "<group>"; };
+		3BA9121A1573785D009A288B /* aviva-logo0097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0097.png"; sourceTree = "<group>"; };
+		3BA9121B1573785D009A288B /* aviva-logo0109.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0109.png"; sourceTree = "<group>"; };
+		3BA9121C1573785D009A288B /* aviva-logo0121.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0121.png"; sourceTree = "<group>"; };
+		3BA9121D1573785D009A288B /* aviva-logo0133.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0133.png"; sourceTree = "<group>"; };
+		3BA9121E1573785D009A288B /* aviva-logo0145.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0145.png"; sourceTree = "<group>"; };
+		3BA9121F1573785D009A288B /* aviva-logo0157.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0157.png"; sourceTree = "<group>"; };
+		3BA912201573785D009A288B /* aviva-logo0169.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0169.png"; sourceTree = "<group>"; };
+		3BA912211573785D009A288B /* aviva-logo0181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0181.png"; sourceTree = "<group>"; };
+		3BA912221573785D009A288B /* aviva-logo0187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0187.png"; sourceTree = "<group>"; };
+		3BA912231573785D009A288B /* aviva-logo0193.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0193.png"; sourceTree = "<group>"; };
+		3BA912241573785D009A288B /* aviva-logo0199.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0199.png"; sourceTree = "<group>"; };
+		3BA912251573785D009A288B /* aviva-logo0205.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0205.png"; sourceTree = "<group>"; };
+		3BA912261573785D009A288B /* aviva-logo0211.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0211.png"; sourceTree = "<group>"; };
+		3BA912271573785D009A288B /* aviva-logo0217.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0217.png"; sourceTree = "<group>"; };
+		3BA912281573785D009A288B /* aviva-logo0223.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0223.png"; sourceTree = "<group>"; };
+		3BA912291573785D009A288B /* aviva-logo0229.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0229.png"; sourceTree = "<group>"; };
+		3BA9122A1573785D009A288B /* aviva-logo0235.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0235.png"; sourceTree = "<group>"; };
+		3BA9122B1573785D009A288B /* aviva-logo0241.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0241.png"; sourceTree = "<group>"; };
+		3BA9122C1573785D009A288B /* aviva-logo0247.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0247.png"; sourceTree = "<group>"; };
 		3BAD17AE156CF99200977973 /* BrokerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD17B2156CF99200977973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BAD17B4156CF99200977973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,9 +134,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BA912491573786A009A288B /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				3BA912121573785D009A288B /* aviva-logo0001.png */,
+				3BA912131573785D009A288B /* aviva-logo0013.png */,
+				3BA912141573785D009A288B /* aviva-logo0025.png */,
+				3BA912151573785D009A288B /* aviva-logo0037.png */,
+				3BA912161573785D009A288B /* aviva-logo0049.png */,
+				3BA912171573785D009A288B /* aviva-logo0061.png */,
+				3BA912181573785D009A288B /* aviva-logo0073.png */,
+				3BA912191573785D009A288B /* aviva-logo0085.png */,
+				3BA9121A1573785D009A288B /* aviva-logo0097.png */,
+				3BA9121B1573785D009A288B /* aviva-logo0109.png */,
+				3BA9121C1573785D009A288B /* aviva-logo0121.png */,
+				3BA9121D1573785D009A288B /* aviva-logo0133.png */,
+				3BA9121E1573785D009A288B /* aviva-logo0145.png */,
+				3BA9121F1573785D009A288B /* aviva-logo0157.png */,
+				3BA912201573785D009A288B /* aviva-logo0169.png */,
+				3BA912211573785D009A288B /* aviva-logo0181.png */,
+				3BA912221573785D009A288B /* aviva-logo0187.png */,
+				3BA912231573785D009A288B /* aviva-logo0193.png */,
+				3BA912241573785D009A288B /* aviva-logo0199.png */,
+				3BA912251573785D009A288B /* aviva-logo0205.png */,
+				3BA912261573785D009A288B /* aviva-logo0211.png */,
+				3BA912271573785D009A288B /* aviva-logo0217.png */,
+				3BA912281573785D009A288B /* aviva-logo0223.png */,
+				3BA912291573785D009A288B /* aviva-logo0229.png */,
+				3BA9122A1573785D009A288B /* aviva-logo0235.png */,
+				3BA9122B1573785D009A288B /* aviva-logo0241.png */,
+				3BA9122C1573785D009A288B /* aviva-logo0247.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
 		3BAD17A3156CF99200977973 = {
 			isa = PBXGroup;
 			children = (
+				3BA912491573786A009A288B /* splash */,
 				3BAD17B8156CF99200977973 /* BrokerSearch */,
 				3BAD17D9156CF99200977973 /* BrokerSearchTests */,
 				3BAD17B1156CF99200977973 /* Frameworks */,
@@ -227,6 +316,33 @@
 				3BAD17BD156CF99200977973 /* InfoPlist.strings in Resources */,
 				3BAD17C6156CF99200977973 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3BAD17C9156CF99200977973 /* MainStoryboard_iPad.storyboard in Resources */,
+				3BA9122D1573785D009A288B /* aviva-logo0001.png in Resources */,
+				3BA9122E1573785D009A288B /* aviva-logo0013.png in Resources */,
+				3BA9122F1573785D009A288B /* aviva-logo0025.png in Resources */,
+				3BA912301573785D009A288B /* aviva-logo0037.png in Resources */,
+				3BA912311573785D009A288B /* aviva-logo0049.png in Resources */,
+				3BA912321573785D009A288B /* aviva-logo0061.png in Resources */,
+				3BA912331573785D009A288B /* aviva-logo0073.png in Resources */,
+				3BA912341573785D009A288B /* aviva-logo0085.png in Resources */,
+				3BA912351573785D009A288B /* aviva-logo0097.png in Resources */,
+				3BA912361573785D009A288B /* aviva-logo0109.png in Resources */,
+				3BA912371573785D009A288B /* aviva-logo0121.png in Resources */,
+				3BA912381573785D009A288B /* aviva-logo0133.png in Resources */,
+				3BA912391573785D009A288B /* aviva-logo0145.png in Resources */,
+				3BA9123A1573785D009A288B /* aviva-logo0157.png in Resources */,
+				3BA9123B1573785D009A288B /* aviva-logo0169.png in Resources */,
+				3BA9123C1573785D009A288B /* aviva-logo0181.png in Resources */,
+				3BA9123D1573785D009A288B /* aviva-logo0187.png in Resources */,
+				3BA9123E1573785D009A288B /* aviva-logo0193.png in Resources */,
+				3BA9123F1573785D009A288B /* aviva-logo0199.png in Resources */,
+				3BA912401573785D009A288B /* aviva-logo0205.png in Resources */,
+				3BA912411573785D009A288B /* aviva-logo0211.png in Resources */,
+				3BA912421573785D009A288B /* aviva-logo0217.png in Resources */,
+				3BA912431573785D009A288B /* aviva-logo0223.png in Resources */,
+				3BA912441573785D009A288B /* aviva-logo0229.png in Resources */,
+				3BA912451573785D009A288B /* aviva-logo0235.png in Resources */,
+				3BA912461573785D009A288B /* aviva-logo0241.png in Resources */,
+				3BA912471573785D009A288B /* aviva-logo0247.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
