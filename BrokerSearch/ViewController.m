@@ -225,6 +225,8 @@ NSString* oppTrackerUrl;
 //    [alert show];
 //    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 //
+    
+    // i added this segue using click.cntrl in the gui and named it 'brokerSelected'
     [self performSegueWithIdentifier:@"brokerSelected" sender:self];
 }
 

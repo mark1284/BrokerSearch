@@ -3,6 +3,7 @@
 // 
 //
 
+
 #import "WorkListViewController.h"
 
 //MAYBE USE GCD BACKGROUND QUEUE FROM
@@ -23,6 +24,7 @@
 @synthesize searchResults;
 
 NSString* oppTrackerUrl;
+int alt = 1;
 
 - (void)viewDidLoad
 {
@@ -38,8 +40,20 @@ NSString* oppTrackerUrl;
     
     self.tableView.scrollEnabled = YES;
     
+    self.allItems = [NSArray arrayWithObjects:
+                     @"Boots",
+                     @"WH Smith",
+                     @"Jaguar",
+                     @"Hornet Plc",
+                     nil];
+    
+    
+    
     //     populate the base list with the top 10: could change to last used maybe 
-//    [self filterContentForSearchTextFromOppTracker : @""];
+    //    [self filterContentForSearchTextFromOppTracker : @""];
+    
+    
+    
     [self.tableView reloadData];
     
 }
@@ -81,7 +95,7 @@ NSString* oppTrackerUrl;
 // remember this controller is handling two views: the base view and the search results
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"workCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -97,8 +111,24 @@ NSString* oppTrackerUrl;
         
     }
     else{
-        cell.textLabel.text = 
-        [self.allItems objectAtIndex:indexPath.row];
+        UILabel *cellLabel = (UILabel *)[cell viewWithTag:102];
+        cellLabel.text = [self.allItems objectAtIndex:indexPath.row];
+        
+        UILabel *cellLabel2 = (UILabel *)[cell viewWithTag:103];
+        cellLabel2.text = @"More detail about this quote like rate and stuff";
+        
+        
+        
+        //        cell.textLabel.text = [self.allItems objectAtIndex:indexPath.row];
+        
+               UIImageView * imageView = (UIImageView *) [cell viewWithTag:101];
+        if (alt == 1) {
+            imageView.image = [UIImage imageNamed:@"aquila30x33.png"];
+            alt =0;
+        } else {
+            imageView.image = [UIImage imageNamed:@"wizhat30x33.jpg"];
+            alt =1;
+        }
         
     }
 #ifdef DEBUG
