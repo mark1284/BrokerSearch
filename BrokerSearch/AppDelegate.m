@@ -27,7 +27,7 @@
                        @"aviva-logo0235" , @"aviva-logo0241" , @"aviva-logo0247", nil];
     
     
-    splashImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0,0, 768, 1004)];
+    splashImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0,0, 768, 1024)];
     
     NSMutableArray * imageArray = [NSMutableArray new];
     for(id imageName in images) {

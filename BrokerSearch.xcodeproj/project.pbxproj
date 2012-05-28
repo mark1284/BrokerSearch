@@ -34,6 +34,7 @@
 		3BA912451573785D009A288B /* aviva-logo0235.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122A1573785D009A288B /* aviva-logo0235.png */; };
 		3BA912461573785D009A288B /* aviva-logo0241.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122B1573785D009A288B /* aviva-logo0241.png */; };
 		3BA912471573785D009A288B /* aviva-logo0247.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9122C1573785D009A288B /* aviva-logo0247.png */; };
+		3BA912561573C23F009A288B /* WorkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA912551573C23F009A288B /* WorkListViewController.m */; };
 		3BAD17B3156CF99200977973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B2156CF99200977973 /* UIKit.framework */; };
 		3BAD17B5156CF99200977973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B4156CF99200977973 /* Foundation.framework */; };
 		3BAD17B7156CF99200977973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B6156CF99200977973 /* CoreGraphics.framework */; };
@@ -88,6 +89,8 @@
 		3BA9122A1573785D009A288B /* aviva-logo0235.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0235.png"; sourceTree = "<group>"; };
 		3BA9122B1573785D009A288B /* aviva-logo0241.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0241.png"; sourceTree = "<group>"; };
 		3BA9122C1573785D009A288B /* aviva-logo0247.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aviva-logo0247.png"; sourceTree = "<group>"; };
+		3BA912521573C1C8009A288B /* WorkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkListViewController.h; sourceTree = SOURCE_ROOT; };
+		3BA912551573C23F009A288B /* WorkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkListViewController.m; path = ../WorkListViewController.m; sourceTree = "<group>"; };
 		3BAD17AE156CF99200977973 /* BrokerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD17B2156CF99200977973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BAD17B4156CF99200977973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,7 +137,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BA912491573786A009A288B /* splash */ = {
+		3BA912491573786A009A288B /* SplashImages */ = {
 			isa = PBXGroup;
 			children = (
 				3BA912121573785D009A288B /* aviva-logo0001.png */,
@@ -165,13 +168,24 @@
 				3BA9122B1573785D009A288B /* aviva-logo0241.png */,
 				3BA9122C1573785D009A288B /* aviva-logo0247.png */,
 			);
-			name = splash;
+			name = SplashImages;
+			sourceTree = "<group>";
+		};
+		3BA912571573C259009A288B /* WorkList */ = {
+			isa = PBXGroup;
+			children = (
+				3BA912551573C23F009A288B /* WorkListViewController.m */,
+				3BA912521573C1C8009A288B /* WorkListViewController.h */,
+			);
+			name = WorkList;
+			path = BrokerSearch;
 			sourceTree = "<group>";
 		};
 		3BAD17A3156CF99200977973 = {
 			isa = PBXGroup;
 			children = (
-				3BA912491573786A009A288B /* splash */,
+				3BA912571573C259009A288B /* WorkList */,
+				3BA912491573786A009A288B /* SplashImages */,
 				3BAD17B8156CF99200977973 /* BrokerSearch */,
 				3BAD17D9156CF99200977973 /* BrokerSearchTests */,
 				3BAD17B1156CF99200977973 /* Frameworks */,
@@ -380,6 +394,7 @@
 				3BAD17BF156CF99200977973 /* main.m in Sources */,
 				3BAD17C3156CF99200977973 /* AppDelegate.m in Sources */,
 				3BAD17CC156CF99200977973 /* ViewController.m in Sources */,
+				3BA912561573C23F009A288B /* WorkListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
