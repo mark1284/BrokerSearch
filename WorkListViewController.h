@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface WorkListViewController : UITableViewController {
-    // ALL THESE ADDED MANUALLY
-    UISearchDisplayController *searchDisplayController;
-    UISearchBar *searchBar;
-    NSArray *allItems;
-    NSArray *searchResults;
+    // ALL THESE ADDED MANUALLY 
+//    UISearchDisplayController *searchDisplayController;
+//    UISearchBar *searchBar;
+//    NSArray *allItems;
+//    NSArray *searchResults;
 }
 
 
@@ -23,7 +23,6 @@
 // CLICK DRAGGED VIA ASSISTANT EDITOR FROM GUI TO .H
 @property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
 
-@property (nonatomic, copy) NSArray *allItems;
-@property (nonatomic, copy) NSArray *searchResults;
+
 
 @end

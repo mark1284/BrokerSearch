@@ -33,8 +33,10 @@
 
 
 @interface ViewController ()
-
+@property (nonatomic, copy) NSArray *allItems;
+@property (nonatomic, copy) NSArray *searchResults;
 @end
+
 
 
 @implementation ViewController

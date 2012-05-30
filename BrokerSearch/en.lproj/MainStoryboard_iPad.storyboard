@@ -62,7 +62,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2063" y="393"/>
+            <point key="canvasLocation" x="671" y="410"/>
         </scene>
         <!--Work List View Controller - Work List for Aon Hewitt-->
         <scene sceneID="VLz-Vc-gs3">
@@ -70,7 +70,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdB-go-p9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Work List for Aon Hewitt" id="iIG-sV-Aaf" customClass="WorkListViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="88" sectionHeaderHeight="22" sectionFooterHeight="22" id="6T0-a3-fd7">
-                        <rect key="frame" x="0.0" y="64" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Enter a customer name" showsBookmarkButton="YES" showsCancelButton="YES" id="0xt-lN-d5z">
@@ -104,8 +104,8 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="103" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="9gV-Mj-bna">
-                                            <rect key="frame" x="81" y="46" width="575" height="28"/>
+                                        <label opaque="NO" clipsSubviews="YES" tag="103" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="9gV-Mj-bna">
+                                            <rect key="frame" x="81" y="46" width="501" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -121,12 +121,15 @@
                             <outlet property="delegate" destination="iIG-sV-Aaf" id="eQg-Ex-h9P"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Work List For Aon Hewitt" id="4GP-ic-hdY">
-                        <barButtonItem key="backBarButtonItem" title="Broker Search" id="MDh-Pa-qcL"/>
+                        <barButtonItem key="backBarButtonItem" title="Work List" id="MDh-Pa-qcL"/>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchBar" destination="0xt-lN-d5z" id="gXj-KO-VLB"/>
                         <outlet property="searchDisplayController" destination="3hg-Iw-yxp" id="wHp-sn-efH"/>
+                        <segue destination="wzQ-c8-TZi" kind="push" identifier="workSelected" id="2TL-jW-XfR"/>
                     </connections>
                 </tableViewController>
                 <searchDisplayController id="5K2-vy-U51">
@@ -139,7 +142,111 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2077" y="1757"/>
+            <point key="canvasLocation" x="2141" y="393"/>
+        </scene>
+        <!--View Controller - Quote Id:12345 for Aon Hewitt and Boots-->
+        <scene sceneID="a7k-jK-EdA">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H6m-T1-uEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="2I2-tl-0xy" sceneMemberID="viewController">
+                    <view key="view" contentMode="right" id="OvQ-5M-LT6">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="60f-5l-yE8">
+                                <rect key="frame" x="0.0" y="960" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Log Correspondence" style="done" id="HIs-zJ-DzO"/>
+                                    <barButtonItem title="Add RateFeedback" id="s1o-IP-OqO"/>
+                                    <barButtonItem title="Margin Calculator" id="iEK-7I-Lmv"/>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="images-2.jpeg" id="Q9Q-gk-By8">
+                                <rect key="frame" x="229" y="45" width="266" height="310"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Quote Id:12345 for Aon Hewitt and Boots" id="gNT-K3-IoC">
+                        <barButtonItem key="backBarButtonItem" title="Work List" id="boB-dV-K0A"/>
+                    </navigationItem>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3469" y="393"/>
+        </scene>
+        <!--Work List Detail View Controller - Aon Hewitt - Edit Quote-->
+        <scene sceneID="LAM-VI-NjC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Occ-rW-e4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="wzQ-c8-TZi" customClass="WorkListDetailViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="63" sectionHeaderHeight="10" sectionFooterHeight="10" id="sRX-fX-lF8">
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="njq-9C-PAM">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="114"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="aquila30x33.png" id="jIX-Jr-T1f">
+                                    <rect key="frame" x="60" y="44" width="35" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quote Number 12345" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="w8E-Tw-gYe">
+                                    <rect key="frame" x="119" y="73" width="142" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Boots " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" id="Vwg-4o-kEW">
+                                    <rect key="frame" x="119" y="42" width="142" height="46"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="outcome" rowHeight="63" id="EKv-mX-VQt">
+                                <rect key="frame" x="0.0" y="148" width="768" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="45" y="1" width="678" height="62"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Outcome :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="UXC-Z1-8Ua">
+                                            <rect key="frame" x="20" y="20" width="80" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="left" text="Undecided" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="mEj-A7-VGV">
+                                            <rect key="frame" x="119" y="21" width="84" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="wzQ-c8-TZi" id="typ-9l-nSy"/>
+                            <outlet property="delegate" destination="wzQ-c8-TZi" id="c4W-8p-l8v"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Aon Hewitt - Edit Quote" id="cU4-fA-DYT"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="2309" y="1584"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gYM-RA-6fK">
@@ -157,7 +264,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-295" y="409"/>
+            <point key="canvasLocation" x="-1863" y="393"/>
         </scene>
         <!--View Controller - Opportunity Tracker - Jason Ellis-->
         <scene sceneID="jYc-os-5d7">
@@ -189,9 +296,13 @@
                     <navigationItem key="navigationItem" title="Opportunity Tracker - Jason Ellis" id="Ks7-3k-Lln"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="936" y="399"/>
+            <point key="canvasLocation" x="-640" y="402"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="aquila30x33.png" width="30" height="33"/>
+        <image name="images-2.jpeg" width="261" height="193"/>
+    </resources>
     <classes>
         <class className="ViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
@@ -199,6 +310,9 @@
                 <relationship kind="outlet" name="searchBar" candidateClass="UISearchBar"/>
                 <relationship kind="outlet" name="searchDisplayController" candidateClass="UISearchDisplayController"/>
             </relationships>
+        </class>
+        <class className="WorkListDetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WorkListDetailViewController.h"/>
         </class>
         <class className="WorkListViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WorkListViewController.h"/>

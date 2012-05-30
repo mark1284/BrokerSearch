@@ -11,7 +11,8 @@
 
 
 @interface WorkListViewController ()
-
+@property (nonatomic, copy) NSArray *allItems;
+@property (nonatomic, copy) NSArray *searchResults;
 @end
 
 
@@ -102,6 +103,7 @@ int alt = 1;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         //         this bit adds the > at the end of each table row
         //         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//        cell.textLabel.font = [UIFont systemFontOfSize:17.0];
     }
     
     /* Configure the cell. */
@@ -115,7 +117,7 @@ int alt = 1;
         cellLabel.text = [self.allItems objectAtIndex:indexPath.row];
         
         UILabel *cellLabel2 = (UILabel *)[cell viewWithTag:103];
-        cellLabel2.text = @"More detail about this quote like rate and stuff";
+        cellLabel2.text = @"More detail about this quote like rate and stuff. Maybe some star rating for prospect rating";
         
         
         
@@ -232,7 +234,7 @@ int alt = 1;
     //    [alert show];
     //    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     //
-    [self performSegueWithIdentifier:@"brokerSelected" sender:self];
+    [self performSegueWithIdentifier:@"workSelected" sender:self];
 }
 
 

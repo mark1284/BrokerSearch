@@ -37,6 +37,10 @@
 		3BA912561573C23F009A288B /* WorkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA912551573C23F009A288B /* WorkListViewController.m */; };
 		3BA9125B1573D2AF009A288B /* aquila30x33.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9125A1573D2AF009A288B /* aquila30x33.png */; };
 		3BA9125D1573D522009A288B /* wizhat30x33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9125C1573D522009A288B /* wizhat30x33.jpg */; };
+		3BA9125F1573DCD8009A288B /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9125E1573DCD8009A288B /* images-2.jpeg */; };
+		3BA9126215750028009A288B /* database_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9126015750027009A288B /* database_add.png */; };
+		3BA9126315750028009A288B /* money_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9126115750028009A288B /* money_add.png */; };
+		3BA912711575099E009A288B /* WorkListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA912701575099E009A288B /* WorkListDetailViewController.m */; };
 		3BAD17B3156CF99200977973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B2156CF99200977973 /* UIKit.framework */; };
 		3BAD17B5156CF99200977973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B4156CF99200977973 /* Foundation.framework */; };
 		3BAD17B7156CF99200977973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD17B6156CF99200977973 /* CoreGraphics.framework */; };
@@ -95,6 +99,11 @@
 		3BA912551573C23F009A288B /* WorkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkListViewController.m; path = ../WorkListViewController.m; sourceTree = "<group>"; };
 		3BA9125A1573D2AF009A288B /* aquila30x33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aquila30x33.png; path = ../aquila30x33.png; sourceTree = "<group>"; };
 		3BA9125C1573D522009A288B /* wizhat30x33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wizhat30x33.jpg; sourceTree = "<group>"; };
+		3BA9125E1573DCD8009A288B /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		3BA9126015750027009A288B /* database_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database_add.png; sourceTree = "<group>"; };
+		3BA9126115750028009A288B /* money_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money_add.png; sourceTree = "<group>"; };
+		3BA9126F1575099E009A288B /* WorkListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkListDetailViewController.h; sourceTree = "<group>"; };
+		3BA912701575099E009A288B /* WorkListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkListDetailViewController.m; sourceTree = "<group>"; };
 		3BAD17AE156CF99200977973 /* BrokerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD17B2156CF99200977973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BAD17B4156CF99200977973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,18 +187,46 @@
 		3BA912571573C259009A288B /* WorkList */ = {
 			isa = PBXGroup;
 			children = (
-				3BA9125A1573D2AF009A288B /* aquila30x33.png */,
+				3BA9126415750344009A288B /* images */,
 				3BA912551573C23F009A288B /* WorkListViewController.m */,
 				3BA912521573C1C8009A288B /* WorkListViewController.h */,
-				3BA9125C1573D522009A288B /* wizhat30x33.jpg */,
 			);
 			name = WorkList;
 			path = BrokerSearch;
 			sourceTree = "<group>";
 		};
+		3BA9126415750344009A288B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9125A1573D2AF009A288B /* aquila30x33.png */,
+				3BA9126015750027009A288B /* database_add.png */,
+				3BA9126115750028009A288B /* money_add.png */,
+				3BA9125C1573D522009A288B /* wizhat30x33.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3BA9126515750354009A288B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9125E1573DCD8009A288B /* images-2.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3BA9126E1575095D009A288B /* WorkListDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3BA9126F1575099E009A288B /* WorkListDetailViewController.h */,
+				3BA912701575099E009A288B /* WorkListDetailViewController.m */,
+			);
+			name = WorkListDetail;
+			sourceTree = "<group>";
+		};
 		3BAD17A3156CF99200977973 = {
 			isa = PBXGroup;
 			children = (
+				3BA9126E1575095D009A288B /* WorkListDetail */,
 				3BA912571573C259009A288B /* WorkList */,
 				3BA912491573786A009A288B /* SplashImages */,
 				3BAD17B8156CF99200977973 /* BrokerSearch */,
@@ -226,6 +263,7 @@
 				3BAD17C2156CF99200977973 /* AppDelegate.m */,
 				3BAD17C4156CF99200977973 /* MainStoryboard_iPhone.storyboard */,
 				3BAD17C7156CF99200977973 /* MainStoryboard_iPad.storyboard */,
+				3BA9126515750354009A288B /* images */,
 				3BAD17CA156CF99200977973 /* ViewController.h */,
 				3BAD17CB156CF99200977973 /* ViewController.m */,
 				3BAD17B9156CF99200977973 /* Supporting Files */,
@@ -365,6 +403,9 @@
 				3BA912471573785D009A288B /* aviva-logo0247.png in Resources */,
 				3BA9125B1573D2AF009A288B /* aquila30x33.png in Resources */,
 				3BA9125D1573D522009A288B /* wizhat30x33.jpg in Resources */,
+				3BA9125F1573DCD8009A288B /* images-2.jpeg in Resources */,
+				3BA9126215750028009A288B /* database_add.png in Resources */,
+				3BA9126315750028009A288B /* money_add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +444,7 @@
 				3BAD17C3156CF99200977973 /* AppDelegate.m in Sources */,
 				3BAD17CC156CF99200977973 /* ViewController.m in Sources */,
 				3BA912561573C23F009A288B /* WorkListViewController.m in Sources */,
+				3BA912711575099E009A288B /* WorkListDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +557,7 @@
 				GCC_PREFIX_HEADER = "BrokerSearch/BrokerSearch-Prefix.pch";
 				INFOPLIST_FILE = "BrokerSearch/BrokerSearch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,6 +569,7 @@
 				GCC_PREFIX_HEADER = "BrokerSearch/BrokerSearch-Prefix.pch";
 				INFOPLIST_FILE = "BrokerSearch/BrokerSearch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
